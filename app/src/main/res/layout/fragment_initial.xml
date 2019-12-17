@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="#EEEEEE"
+    android:focusableInTouchMode="true">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+            <TextView android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="10dp"
+                android:textSize="30dp"
+                android:text="@string/str_framgent_initial_tv_number"
+                android:textColor="@color/colorPrimary" />
+            <EditText
+                android:hint="@string/str_framgent_initial_hint_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/etNumber"/>
+            <Button
+                android:text="@string/str_framgent_initial_btn_continue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/ic_button_border_green_states"
+                android:id="@+id/btnContinueTo"/>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/rvSolutionsRegisters"/>
+
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

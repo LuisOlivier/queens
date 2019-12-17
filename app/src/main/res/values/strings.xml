@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Queens</string>
+
+    <string name="tag_dialog_loader">LoaderDialogFragment</string>
+
+    <!-- Initial Fragment-->
+    <string name="str_initial_fragment_alert_valid_number">Enter a valid number</string>
+    <string name="str_initial_fragment_alert_existing_number">This solution already exists, please select it from the table</string>
+    <string name="str_initial_fragment_alert_a_number">Enter a number</string>
+    <string name="str_initial_fragment_alert_title">Alert</string>
+    <string name="str_initial_fragment_alert_btn_ok">Ok</string>
+    <!-- ListResult Adapter Fragment-->
+    <string name="str_list_result_adapter_solution">Solution</string>
+    <!-- OneResult Fragment-->
+    <string name="str_one_result_fragment"></string>
+    <!-- ListResults Adapter-->
+    <string name="str_list_result_adapter_Q">Q</string>
+
+    <!-- XML-->
+
+    <!-- framgent_initial XML-->
+    <string name="str_framgent_initial_tv_number">Enter a number</string>
+    <string name="str_framgent_initial_hint_number">Enter a number between 8 and 99</string>
+    <string name="str_framgent_initial_btn_continue">Perform Operation</string>
+    <!-- fragment_list_result XML-->
+    <string name="str_fragment_list_result_list_solutions">Solutions List</string>
+    <!-- fragment_one_result XML-->
+
+    <!-- item_list_result XML-->
+    <string name="str_item_list_result">xxxxxx</string>
+
+
+</resources>

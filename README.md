@@ -1,2 +1,1 @@
 # queens
-N Queens (Kotlin)
